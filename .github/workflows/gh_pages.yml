@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: |
         cd src
-        python freeze.py --base-url "https://nltm-sanskrit-interlingua-org.github.io/www/"
+        python freeze.py --base-url "https://nltm-sanskrit-interlingua-org.github.io/"
         cp -r static build/
 
     - name: Deploy
