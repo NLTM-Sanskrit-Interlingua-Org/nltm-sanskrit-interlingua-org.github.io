@@ -28,7 +28,7 @@ def parse_json(filename):
 
 ###############################################################################
 
-OBJECTIVES = parse_json(cfg.OBJECTIVES_FILENAME)
+ABOUT = parse_json(cfg.ABOUT_FILENAME)
 MODELS = parse_json(cfg.MODELS_FILENAME)
 DATASETS = parse_json(cfg.DATASETS_FILENAME)
 
@@ -69,7 +69,7 @@ def inject_globals():
 @webapp.route("/")
 def show_about():
     data = {'title': 'About'}
-    data['objectives'] = parse_json(cfg.OBJECTIVES_FILENAME)
+    data.update(parse_json(cfg.ABOUT_FILENAME))
     return render_template("about.html", data=data)
 
 

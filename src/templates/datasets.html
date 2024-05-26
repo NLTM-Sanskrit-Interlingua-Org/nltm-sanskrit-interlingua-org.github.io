@@ -1,6 +1,22 @@
 {% set active_page = "datasets" %}
 {% include "header.html" %}
 
-{{data.datasets}}
+<div class="container p-3">
+    {% if data.datasets %}
+    {% for dataset in data.datasets %}
+    <div class="card mb-2">
+        <div class="card-header">
+            {{dataset.name}}
+        </div>
+        <div class="card-body">
+            {{dataset.description}}
+        </div>
+        <div class="card-footer">
+            <a href="{{dataset.url}}">{{dataset.url}}</a>
+        </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>
 
 {% include "footer.html" %}

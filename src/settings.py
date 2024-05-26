@@ -33,8 +33,8 @@ CONFIG['SERVER_DIR'] = os.environ.get(
     f'{CONFIG_PREFIX}SERVER_DIR', os.path.dirname(os.path.realpath(__file__))
 )
 
+CONFIG['ABOUT_FILENAME'] = 'data/about.json'
 CONFIG['TEAM_FILENAME'] = 'data/team.json'
-CONFIG['OBJECTIVES_FILENAME'] = 'data/objectives.json'
 CONFIG['DATASETS_FILENAME'] = 'data/datasets.json'
 CONFIG['MODELS_FILENAME'] = 'data/models.json'
 

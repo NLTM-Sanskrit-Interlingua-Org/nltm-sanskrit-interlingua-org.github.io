@@ -2,16 +2,16 @@
     {
         "name": "M1",
         "description": "Sample Model 1",
-        "url": ""
+        "url": "https://sample-model-1/"
     },
     {
         "name": "M2",
         "description": "Sample Model 2",
-        "url": ""
+        "url": "https://sample-model-2/"
     },
     {
         "name": "M3",
         "description": "Sample Model 3",
-        "url": ""
+        "url": "https://sample-model-3/"
     }
 ]

@@ -1,6 +1,22 @@
 {% set active_page = "models" %}
 {% include "header.html" %}
 
-{{data.models}}
+<div class="container p-3">
+    {% if data.models %}
+    {% for model in data.models %}
+    <div class="card mb-2">
+        <div class="card-header">
+            {{model.name}}
+        </div>
+        <div class="card-body">
+            {{model.description}}
+        </div>
+        <div class="card-footer">
+            <a href="{{model.url}}">{{model.url}}</a>
+        </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>
 
 {% include "footer.html" %}

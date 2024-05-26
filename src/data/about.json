@@ -1,0 +1,20 @@
+{
+    "about": {
+        "header": "Description Header",
+        "text": "Description Text"
+    },
+    "objectives": [
+        {
+            "header": "Obj1 Header",
+            "text": "Objective 1 Description"
+        },
+        {
+            "header": "Obj1 Header",
+            "text": "Objective 1 Description"
+        },
+        {
+            "header": "Obj1 Header",
+            "text": "Objective 1 Description"
+        }
+    ]
+}

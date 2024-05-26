@@ -2,16 +2,16 @@
     {
         "name": "D1",
         "description": "Sample Dataset 1",
-        "url": ""
+        "url": "https://sample-url-1/"
     },
     {
         "name": "D2",
         "description": "Sample Dataset 2",
-        "url": ""
+        "url": "https://sample-url-2/"
     },
     {
         "name": "D3",
         "description": "Sample Dataset 3",
-        "url": ""
+        "url": "https://sample-url-3/"
     }
 ]

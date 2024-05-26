@@ -1,6 +1,36 @@
 {% set active_page = "about" %}
 {% include "header.html" %}
 
-{{data.objectives}}
+<div class="container p-3">
+    {% if data.about %}
+    <div class="card mb-2">
+        <div class="card-header">
+            {{data.about.header}}
+        </div>
+        <div class="card-body">
+            {{data.about.text}}
+        </div>
+    </div>
+    {% endif %}
+    {% if data.objectives %}
+    <div class="card mb-2">
+        <div class="card-header">
+            Objectives
+        </div>
+        <div class="card-body">
+            <ul>
+                {% for objective in data.objectives %}
+                <li>
+                    {% if objective.header %}
+                    <span class="font-weight-bold">{{objective.header}}</span>:
+                    {% endif %}
+                    <span class="font-weight-light">{{objective.text}}</span>.
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+</div>
 
 {% include "footer.html" %}
