@@ -50,23 +50,21 @@
             {% for _id in func %}
                 {% set _func = func[_id][0] %}
                 {% set _caption = func[_id][1] %}
-                {% if (len(func[id]) > 2) and func[id][2] %}
-                <!-- STATIC -->
-                <a class="dropdown-item {% if _id == active_page %}active{% endif %}" href="{{_func}}">{{_caption}}</a>
-                {% else %}
-                <a class="dropdown-item {% if _id == active_page %}active{% endif %}" href="{{url_for(_func)}}">{{_caption}}</a>
-                {% endif %}
+                <a class="nav-link {% if _id == active_page %}active{% endif %}" 
+                    {% if func[_id][3] %} target="_blank" rel="noopener noreferrer"{% endif %} 
+                    {% if func[_id][2] %} href="{{_func}}"{% else %}  href="{{url_for(_func)}}"{% endif %}>
+                    {{_caption}}
+                </a>
             {% endfor %}
             </div>
         </li>
         {% else %}
         <li class="nav-item lead">
-            {% if navigation[id][2] %}
-            <!-- STATIC -->
-            <a class="nav-link {% if id == active_page %}active{% endif %}" href="{{func}}">{{caption}}</a>
-            {% else %}
-            <a class="nav-link {% if id == active_page %}active{% endif %}" href="{{url_for(func)}}">{{caption}}</a>
-            {% endif %}
+            <a class="nav-link {% if id == active_page %}active{% endif %}" 
+                {% if navigation[id][3] %} target="_blank" rel="noopener noreferrer"{% endif %} 
+                {% if navigation[id][2] %} href="{{func}}"{% else %}  href="{{url_for(func)}}"{% endif %}>
+                {{caption}}
+            </a>
         </li>
         {% endif %}
         {% endfor %}

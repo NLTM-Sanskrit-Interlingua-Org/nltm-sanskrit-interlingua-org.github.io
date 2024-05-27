@@ -53,10 +53,11 @@ def inject_globals():
         'title': 'NLTM Interlingua',
         'header': 'NLTM Interlingua',
         'navigation': {
-            'about': (show_about.__qualname__, 'About'),
-            'samanvaya': (cfg.SAMANVAYA_URL, 'Samanvaya', True),
-            'datasets': (show_datasets.__qualname__, 'Datasets'),
-            'models': (show_models.__qualname__, 'Models'),
+            # (function/url/mapping-for-dropdown, display-text, is_url, open_in_new_tab)
+            'about': (show_about.__qualname__, 'About', False, False),
+            'samanvaya': (cfg.SAMANVAYA_URL, 'Samanvaya', True, True),
+            'datasets': (show_datasets.__qualname__, 'Datasets', False, False),
+            'models': (show_models.__qualname__, 'Models', False, False),
         },
         'now': datetime.datetime.utcnow(),
     }

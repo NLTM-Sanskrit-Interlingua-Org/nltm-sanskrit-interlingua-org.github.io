@@ -8,7 +8,7 @@
 
 ## Data Files
 
-* `objectives.json`
+* `about.json`
 * `models.json`
 * `datasets.json`
 * `team.json`
