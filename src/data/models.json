@@ -1,17 +1,12 @@
 [
     {
         "name": "Hindi-Kannada Model",
-        "description": "This is a model of Hindi-Kannada based on XLMR",
-        "url": "https://drive.google.com/drive/folders/1ciA8mpTzrULo-0TYt87KPqxu6c0nYSyX"
+        "description": "This is a Hindi-Kannada model based on XLMR and Knowledge Distillation",
+        "url": "https://huggingface.co/sujeetkgp/bhasini_hi-kn-model/tree/main"
     },
     {
         "name": "Kannada-Hindi Model",
         "description": "This is a model of Kannada-Hindi based on XLMR",
-        "url": "https://drive.google.com/drive/folders/1afcOfDK6gHmY6WAnXGDjcqCHf7Ds-BCq"
-    },
-    {
-        "name": "M3",
-        "description": "Sample Model 3",
-        "url": "https://sample-model-3/"
+        "url": "https://huggingface.co/sujeetkgp/bhasini_kn-hi_model/tree/main"
     }
 ]
