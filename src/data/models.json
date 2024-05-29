@@ -1,13 +1,13 @@
 [
     {
-        "name": "M1",
-        "description": "Sample Model 1",
-        "url": "https://sample-model-1/"
+        "name": "Hindi-Kannada Model",
+        "description": "This is a model of Hindi-Kannada based on XLMR",
+        "url": "https://drive.google.com/drive/folders/1ciA8mpTzrULo-0TYt87KPqxu6c0nYSyX"
     },
     {
-        "name": "M2",
-        "description": "Sample Model 2",
-        "url": "https://sample-model-2/"
+        "name": "Kannada-Hindi Model",
+        "description": "This is a model of Kannada-Hindi based on XLMR",
+        "url": "https://drive.google.com/drive/folders/1afcOfDK6gHmY6WAnXGDjcqCHf7Ds-BCq"
     },
     {
         "name": "M3",
