@@ -6,7 +6,7 @@
     },
     {
         "name": "Kannada-Hindi Model",
-        "description": "This is a model of Kannada-Hindi based on XLMR",
+        "description": "This is a Kannada-Hindi model based on XLMR and Knowledge Distillation ",
         "url": "https://huggingface.co/sujeetkgp/bhasini_kn-hi_model/tree/main"
     }
 ]
