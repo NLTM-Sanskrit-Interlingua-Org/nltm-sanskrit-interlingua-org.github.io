@@ -8,5 +8,11 @@
         "name": "Kannada-Hindi Model",
         "description": "This is a Kannada-Hindi model based on XLMR and Knowledge Distillation ",
         "url": "https://huggingface.co/sujeetkgp/bhasini_kn-hi_model/tree/main"
+    },
+    {
+        "name": "Sanskrit-Hindi and Hindi-Sanskrit Model",
+        "description": "This model is finetuned version of NLLB 1.3B on .... dataset",
+        "url": "https://huggingface.co/karthika95/nltm_hi_san/tree/main"
     }
+           
 ]
