@@ -38,6 +38,6 @@ CONFIG['TEAM_FILENAME'] = 'data/team.json'
 CONFIG['DATASETS_FILENAME'] = 'data/datasets.json'
 CONFIG['MODELS_FILENAME'] = 'data/models.json'
 
-CONFIG['SAMANVAYA_URL'] = "https://sanskrit.iitk.ac.in/interlingua/samanvaya/"
+CONFIG['SAMANVAYA_URL'] = "https://sanskrit.iitk.ac.in/samanvaya/index.html"
 
 ###############################################################################
